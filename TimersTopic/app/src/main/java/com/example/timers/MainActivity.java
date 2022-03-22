@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG, "onCreate: Thread Name "+Thread.currentThread().getName()+" Thread ID= "+Thread.currentThread().getId());
 
             }
-        },5000);
+        },5000,50);
+        //5000 :delay --->Which descides when the timer should be started after the application Launch.
+        //50 :period --->Once the timer is Started,In how many Gap s ,the run method should be executed.
     }
 }
